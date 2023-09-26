@@ -1,0 +1,24 @@
+# User Guide / Notes:
+# --------------------------------------------------------
+# 1. To start the program -> type 'python app.py' to start
+# 2. In the beginning, it will appear 'main menu' where you can choose log as 'guest' or 'user'
+# 3. In 'guest menu', it allows find/show/list books as well as add/modify/checkout books from shopping basket.
+# 4. As 'register user', it allows view history, view/modify account details
+# 5. press any key out of 1-10 to exit
+
+
+
+
+#Notes of creating the program:
+#----------------------------------------------------------
+# create class: Book, BookShelf, ShoppingBasket, User, UnregisterUser(User), RegisteredUser(User), Order
+# save and load BookShelf data into csv -> create FileManager class
+# use Order & User class to perform check out
+# create User class for authorization - registered have order history = []
+# create modify method for user
+# create User System to store the registered user data and perform registration
+# complete the registration and user_login
+# save and load Order and User data into csv & Json - solve the order history & load data
+# connect the function with Router interface
+# user login selection at Router interface
+# add logging in error Exception.
